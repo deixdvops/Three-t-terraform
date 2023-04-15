@@ -7,17 +7,17 @@ pipeline {
    sh 'echo Hello'
    } 
   }
-  stage('build') {
+  stage('package') {
    steps {
    sh 'echo Hello'
    } 
   }
-  stage('build') {
+  stage('test') {
    steps {
    sh 'echo Hello'
    } 
   }
-  stage('build') {
+  stage('deploy') {
    steps {
    sh 'echo Hello'
    } 
