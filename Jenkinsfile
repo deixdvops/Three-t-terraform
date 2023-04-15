@@ -22,7 +22,7 @@ pipeline {
    sh 'echo Hello'
    } 
   }
-  stage('build') {
+  stage('artifact') {
    steps {
    sh 'echo Hello'
    } 
